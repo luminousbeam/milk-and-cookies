@@ -17,10 +17,19 @@
   // Comments with //
 
   // Variables
-
+var beep = "beep"
 
   // Conditionals
   var number = 10
+  if (number < 5){
+    console.log("Too small")
+  }
+  else if (number = 10){
+    console.log("Just Right")
+  }
+  else if (number > 10){
+    console.log("Too Big")
+  };
   // If number is less than 5 return "Too Small"
   // If number equals 10 return "Just Right"
   // If number is greater than 10 return "Too Big"
@@ -28,11 +37,28 @@
   // Case/Switch Statements
     // Look Up "Switch"
   var day = 'Tuesday';
+
+  if (day = "Monday"){
+    console.log("Happy coffee")
+  }
+  else if (day = "Tuesday"){
+    console.log("How was that coffee")
+  }
+  else if (day = "Friday"){
+    console.log("I am in love")
+    }
+  else {
+    console.log("This day does not count")
+    };
   // Make it do what the ruby does.
 
 
   // While Loop
   var count = 10;
+  while(count >= 1) {
+    console.log(count);
+    count --
+  }
   // Make it do what the ruby does.
 
 
@@ -42,16 +68,21 @@
 
   // named
   // Create a function named "add" that will add two passed numbers
-
+  function sum (x, y)
+    return x + y
+  }
   // anonymous
   // Create an anonymous function that will multiply two numbers and then set the value returned from that to a variable called multiplied.
-
+function multiplied (x, y)
+  return z = x * y
+}
 
   // Arrays
   var myNameArray  = ['Adam', 'Elaine', 'Tom'];
   // Return the first element of the array
+  myNameArray[0]
   // Add a new value 'Matt' to the array
-
+  myNameArray[3] = "Matt"
   // Iteration
   var dwarves = ['Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey'];
   // Print out to the console, "Hi Ho! I am" + the dwarfs name

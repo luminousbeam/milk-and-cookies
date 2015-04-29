@@ -48,7 +48,7 @@ my_name_array << "Matt"
 
 
 # Enumeration
-var dwarves = ["Doc", "Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy", "Dopey"];
+dwarves = ["Doc", "Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy", "Dopey"];
 
 dwarves.each do |dwarf|
   puts "Hi HO! I am #{dwarf}"
